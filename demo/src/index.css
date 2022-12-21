@@ -11,7 +11,7 @@ body {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
-header{
+/* header{
   background-color: #404040;
   padding: 1rem;
 }
@@ -20,4 +20,47 @@ header a{
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
+} */
+.site-container {
+   min-height: 100vh; /*full hight screen */
+}
+main {
+  flex: 1;
+}
+.btn-primary,
+.btn-outline-primary {
+  background-color: rgba(125, 176, 209, 0.925);
+  color: #000000;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+.product-info {
+  padding: 1rem;
+}
+.small-container {
+  max-width: 600px;
+}
+
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #03337a;
+  color: #03337a;
+}
+.text-bold {
+  font-weight: bold;
 }
